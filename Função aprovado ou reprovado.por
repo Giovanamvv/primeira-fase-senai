@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real nota1, nota2, nota3, media
+    nota1= 8
+    nota2= 7
+    nota3= 10
+    media = (nota1+nota2+nota3)/3
+    escreva(media, "\n")
+    se(media>=7){
+      escreva("aprovado")
+    }senao{
+      escreva("reprovado")
+    }
+     
+
+  }
+}
