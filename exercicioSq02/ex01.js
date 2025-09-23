@@ -117,11 +117,67 @@
 
 
 // //Ex5.6//////////
-// let pontuação
+// let pontuacao
 // pontuação= Number(prompt("Digite a pontuação: "))
-// if(pontuação<=10){
+// if(pontuacao<=10){
 //     alert("PÉSSIMO!!!! Não leve a vida tão a sério. Afinal, você nem sairá vivo dela")
-// }else if(pontuação>10 &  pontuação<=100){
-//      alert("SENSACIONATION!!!! Grandes coisas nunca vêm da zona de conforto ")
+// }else if(pontuacao>10 &  pontuacao<=100){
+//      alert("GOOD GOOD!!!! Grandes coisas nunca vêm da zona de conforto ")
 
+// }else if(pontuacao>100 & pontuacao<=200){
+//      alert("EXCELENTE!!!! A vida é 10% o que acontece com você e 90% como você reage a isso")
+    
+// }else if(pontuacao>200){ 
+//      alert("PERFEITO!!!! Seja a mudança que você quer ver no mundo")
 // }
+
+// //Ex5.7//////////
+// let diarias, vFinal, desconto
+// let= totalBruto*10/100
+// let= totalLiquido*15/100
+// diarias= Number(prompt("Número de diárias: "))
+// if(diarias<=5){
+//    alert("Diária: R$100,00")
+
+// }else if(diarias>=6 & diarias<=10){
+//  alert("Diária: R$90,00")
+
+// }else if(diarias>=11){
+//    alert("Diária: R$80,00")
+// }
+
+
+
+
+// //Ex5.8//////////
+// let idade
+
+// idade= Number(prompt("Digite sua idade:"))
+// if(idade<=16){
+//    alert("Não pode votar!")
+// }else if(idade>16 & idade<=17){
+//    alert("Voto Facultivo!")
+// }else if(idade>=18 & idade<=65){
+//    alert("Voto Obrigatório!")
+// }else if(idade>65){
+//    alert("Voto Facultativo!")
+// }
+   
+// //Ex5.9//////////
+// let metros, genero
+// metros= Number(prompt("Digite a altura em metros: "))
+// genero= prompt("Digite o gênero (M/F): ")
+
+
+
+
+
+
+///Ex5.10//////////
+let maca
+maca= Number(prompt("Número de maçãs: "))
+if(maca<12){ 
+   alert("R$0,30 por maçã")
+}else if(maca>=12){
+   alert("R$0,25 por maçã")
+}
