@@ -131,44 +131,68 @@
 //      alert("PERFEITO!!!! Seja a mudança que você quer ver no mundo")
 // }
 
-// //Ex5.7//////////
-// let diarias, vFinal, desconto
-// let= totalBruto*10/100
-// let= totalLiquido*15/100
-// diarias= Number(prompt("Número de diárias: "))
-// if(diarias<=5){
-//    alert("Diária: R$100,00")
+//Ex5.7//////////
+let dias
+let valorDiaria
+let totalBruto, totalLiquido
+let desconto10, desconto15, multa=150
 
-// }else if(diarias>=6 & diarias<=10){
-//  alert("Diária: R$90,00")
 
-// }else if(diarias>=11){
-//    alert("Diária: R$80,00")
-// }
 
+dias= Number(prompt("Número de dias: "))
+if(dias<=5){
+  valorDiaria = 100
+
+}else if(dias<=10){
+ valorDiaria =90
+
+}else if(dias>=11){
+   valorDiaria= 80
+}
+
+totalBruto=dias*valorDiaria
+console.log(totalBruto);
+
+desconto10= totalBruto*10/100
+desconto15= totalBruto*15/100
+
+totalLiquido= totalBruto-(desconto10+desconto15)+multa
+
+//dias
+//valorDiaria
+//totalBruto
+//desconto10
+//desconto15
+//multa
+
+ alert("Número de dias: "+ dias +
+   "\nValor da diária: R$"+ valorDiaria.toFixed(2) +
+   "\nTotal bruto: R$"+ totalBruto.toFixed(2) +
+   "\nDesconto 10%: R$"+ desconto10.toFixed(2) +
+   "\nDesconto 15%: R$"+ desconto15.toFixed(2) +
+   "\nMulta: R$"+ multa +"\n============="+
+   "\nTotal a pagar: R$ " + totalLiquido.toFixed(2).replace(".",",") )
 
 
 
 // //Ex5.8//////////
 // let idade
 
-// idade= Number(prompt("Digite sua idade:"))
-// if(idade<=16){
-//    alert("Não pode votar!")
-// }else if(idade>16 & idade<=17){
-//    alert("Voto Facultivo!")
-// }else if(idade>=18 & idade<=65){
-//    alert("Voto Obrigatório!")
-// }else if(idade>65){
-//    alert("Voto Facultativo!")
-// }
+idade= Number(prompt("Digite sua idade:"))
+if(idade<=16){
+   alert("Não pode votar!")
+}else if(idade>16 & idade<=17){
+   alert("Voto Facultivo!")
+}else if(idade>=18 & idade<=65){
+   alert("Voto Obrigatório!")
+}else if(idade>65){
+   alert("Voto Facultativo!")
+}
    
-// //Ex5.9//////////
-// let metros, genero
-// metros= Number(prompt("Digite a altura em metros: "))
-// genero= prompt("Digite o gênero (M/F): ")
-
-
+//Ex5.9//////////
+let metros, genero
+metros= Number(prompt("Digite a altura em metros: "))
+genero= prompt("Digite o gênero (M/F): ")
 
 
 
