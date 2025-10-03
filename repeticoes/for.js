@@ -22,16 +22,16 @@
 // soma=soma+nota3
 
 
-// let soma=0
-// for(let i=0; i<10; i++){
-//     let nota= Number(prompt("Digite a : "+(i+1)+"a nota: "))
-//     soma=soma+nota
+let soma=0
+for(let i=0; i<10; i++){
+    let nota= Number(prompt("Digite a : "+(i+1)+"a nota: "))
+    soma=soma+nota
    
-// }
-// alert("Soma: "+ soma)
-
-const nomes= ["Jorge", "Dilma","Gilmar","Braian"]
-for (let i=0; i<4; i++){
-    alert(nomes[i])
 }
+alert("Soma: "+ soma)
+
+// const nomes= ["Jorge", "Dilma","Gilmar","Braian"]
+// for (let i=0; i<4; i++){
+//     alert(nomes[i])
+//}
 
