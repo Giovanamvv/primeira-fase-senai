@@ -19,9 +19,17 @@
 
 // ex.5-Altere o programa anterior para fornecer a tabuada do número que o usuário pedir.
 
-let numero= Number(prompt("Tabuada de que? "))   
-for(let i=1; i<=10; i++){
+// let numero= Number(prompt("Tabuada de que? "))   
+// for(let i=1; i<=10; i++){
   
-   alert(numero + "x" + i+ " = " + (numero * i))
+//    alert(numero + "x" + i+ " = " + (numero * i))
    
+// }
+
+//ex.6-Imprima os números ímpares de 1 a 20.
+for(let i=1; i<=20; i++){
+   if(i%2==1)
+      alert(i)
+
 }
+
