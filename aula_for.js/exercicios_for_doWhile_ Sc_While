@@ -1,0 +1,79 @@
+// 1 Faça um programa que calcule ao quadrado de cada número de 1 a 10
+// 2 Imprima a tabuada do 5.
+// 3 Calcule a soma dos números de 1 a 100
+// 4 Imprima os números de 10 a 1 em ordem decrescente
+// 5 Mostre os números ímpares de 1 a 20
+// 6 Dada uma lista de números, encontre o maior e menor valor.
+// 7 Faça um programa que calcule a média de uma lista de números
+// 8 Crie uma variável, defina uma palavra e repita essa palavra 10 vezes na tela 
+// 9 Crie uma váriavel,e, em seguida, exiba a soma dos números pares de 2 até  número definido( se necessário, caso não dê, apresente uma mensagem de aviso)
+
+//1
+for(let i=0; i<=10;i++){
+    console.log(i + (i * 2))
+}
+
+//2
+for(let i=1; i<=10;i++){
+    console.log("5 x " + i + " = " + (5 * i))
+}
+
+//3
+ let soma=0 
+console.log(soma);
+for(let i=1; i<=100; i++){
+   soma=soma+i
+}
+console.log(soma);
+
+//4
+for(let i=10; i>1; i--){
+   console.log(i)
+    }
+
+//5 
+for(let i=1; i<=20; i++){
+   if(i%2==1)
+      console.log(i)
+
+}
+
+//6
+const numeros = [10, 5, 8, 20, 3, 15];
+
+let maior = numeros[0];
+let menor = numeros[0];
+
+for (let i = 1; i < numeros.length; i++) {
+  if (numeros[i] > maior) {
+    maior = numeros[i];
+  }
+  if (numeros[i] < menor) {
+    menor = numeros[i];
+  }
+}
+
+console.log("Maior valor:", maior);
+console.log("Menor valor:", menor);
+
+//7
+
+let soma = 0;
+const numero = [10, 5, 8, 20, 3, 15];
+
+for (let i = 0; i < numero.length; i++) {
+  i += numero[i];
+}
+
+let media = soma/ numeros.length;
+
+console.log("Média:", media);
+
+//8
+let i = 0
+while (i <=10) {
+    console.log("maluco", i);
+    i++
+}
+
+//9
